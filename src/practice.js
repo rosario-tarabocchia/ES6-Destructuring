@@ -18,3 +18,10 @@ const cars = [
     }
   }
 ];
+
+function getCarInfo(car) {
+  return [car.coloursByPopularity[0], car.speedStats.topSpeed];
+}
+
+export default cars;
+export { getCarInfo };
